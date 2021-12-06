@@ -1,0 +1,215 @@
+<!-- Quynh Pham 20179454 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Viet Travel Company</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img src="img/logo.jpg" alt="VietTravel" />
+            </a>
+          </div>
+
+          <ul class="navbar-nav-left">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Our Services</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav-right">
+            <li>
+              <a href="#">
+                <img src="img/marker.svg" alt="" />
+                <span>Find Us</span>
+              </a>
+            </li>
+            <li><button class="btn btn-signin">Sign in</button></li>
+            <li><button class="btn btn-join">Join now</button></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="home">
+        <!-- Company -->
+        <div class="box-company">
+          <div class="box-text">
+            <h1 class="text-xl">Viet Travel Company</h1>
+            <p class="text-md">
+              Viet Travel is a full service travel company. Our reputation for
+              excellent is earned every value and personal attention.
+            </p>
+            <p class="text-md hide">
+              We have striven to make travel simple, worry-free, and fun for our
+              corporate and leisure customers alike. Your complete satisfaction
+              is only the first of our goals – we want your travel experience to
+              be memorable in positive ways, and to expand and enrich your life
+              as nothing else can. We pledge our full resources to the
+              successful completion of every trip we help plan, regardless of
+              its distance or duration.
+            </p>
+            <button id="company-btn" class="btn btn-more">Read More</button>
+          </div>
+        </div>
+        <!-- Search -->
+        <div class="search">
+          <p>Find the place where you want to go</p>
+          <div class="search-bar">
+            <div class="country">
+              <i class="fas fa-search-location"></i>
+              <select name="country" id="country">
+                <option value="">Select a country</option>
+                <option>Viet Nam</option>
+              </select>
+            </div>
+            <div class="city">
+              <label>Choose the city</label>
+              <div>
+                <input type="radio" name="city" id="city1" value="city1" />
+                <label for="city1">Da Nang</label>
+              </div>
+              <div>
+                <input type="radio" name="city" id="city2" value="city2" />
+                <label for="city2">Ha Long</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="city"
+                  id="none"
+                  value="none"
+                  checked
+                />
+                <label for="none">Not selected</label>
+              </div>
+            </div>
+            <div class="transport">
+              <label>Choose the transportation</label>
+              <div>
+                <i class="fas fa-fighter-jet"></i>
+                <input
+                  type="radio"
+                  name="transport"
+                  id="transport1"
+                  value="transport1"
+                />
+                <label for="transport1">Flight</label>
+              </div>
+              <div>
+                <i class="fas fa-ship"></i>
+                <input
+                  type="radio"
+                  name="transport"
+                  id="transport2"
+                  value="transport2"
+                />
+                <label for="transport2">Cruise</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="transport"
+                  id="none"
+                  value="none"
+                  checked
+                />
+                <label for="none">Not selected</label>
+              </div>
+            </div>
+            <button class="btn">Search</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/vietnam.jpeg" alt="" />
+          <div class="box-text">
+            <h2 class="text-xl">Welcome to Viet Nam</h2>
+            <p class="text-md">
+              Despite its tumultuous history, Vietnam has bounced back to become a big-hitter on the Southeast Asian travel circuit..
+            </p>
+            <p class="text-md hide">
+              Unsurprisingly, from a country so long and skinny, there’s plenty of variety on offer: emerald paddy fields and white-sand beaches, full-tilt cities and venerable pagodas, limestone islands looming dramatically out of the sea, vast caves, craggy mountains, and friendly minority communities – with their elaborate tribal costumes and age-old customs. Travel to Vietnam and you’ll be met with warmth and curiosity. Add to that, some of the region’s most nuanced cuisine, and you’re onto a winner.
+
+
+            </p>
+            <button class="btn btn-more">Read More</button>
+          </div>
+        </div>
+
+        <div class="box result">
+          <img src="img/vietnam.jpeg" alt="" />
+          <div class="box-text">
+            <h2 class="text-xl">Welcome to Viet Nam</h2>
+            <p class="text-md">
+              For a nondairy twist on a holiday cookie classic, try the new Iced
+              Sugar Cookie Almondmilk Latte.
+            </p>
+            <p class="text-md hide">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              quibusdam accusamus a, iusto, molestiae culpa recusandae rerum
+              esse assumenda libero dolorum, architecto dolore! Assumenda ipsum
+              optio aperiam eius nemo recusandae nostrum magnam eos quos esse
+              cupiditate voluptatibus, facilis dolore harum ducimus ipsa nisi
+              amet in. Modi, mollitia saepe. Quos, autem?
+            </p>
+            <button class="btn btn-more">Read More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-inner">
+            <img src="img/danang.jpeg" alt="" />
+            <div class="box-text">
+              <h2 class="text-xl">Da Nang City</h2>
+              <p class="text-md">
+                Da Nang marks the halfway point between the capital in the north, Hanoi, and Ho Chi Minh City in the south. It’s the fourth largest city in Vietnam. 
+              <p class="text-md hide">
+                The best attractions in Da Nang are a good mix of centuries-old pagodas, French colonial buildings, as well as tranquil beaches with clear blue waters, and verdant national parks. Da Nang is known as the tourist capital of South Central Vietnam, with a west-coast location that makes for beautiful sunsets against an impressive backdrop of lush mountains.
+              </p>
+              <button class="btn btn-more">Read More</button>
+            </div>
+          </div>
+          <div class="box-inner">
+            <img src="img/halong.jpeg" alt="" />
+            <div class="box-text">
+              <h2 class="text-xl">Ha Long Bay</h2>
+              <p class="text-md">
+                Ha Long is the capital of Quang Ninh province in Northeast Vietnam, and as the name would suggest it’s also the main city of Ha Long Bay.
+              </p>
+              <p class="text-md hide">
+                The city is divided into two main areas: Hon Gai over the other side of the bridge, it is Hon Gai area where you can experience the real local life. where the residential and businesses are, and Bai Chay where the central tourist area is, by the side of Ha Long bay, Replicas of traditional junk boats tour the bay and depart from the city’s Bai Chay district.
+              </p>
+              <button class="btn btn-more">Read More</button>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer-container">
+            <p>© 2021 Viet Travel Company. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
