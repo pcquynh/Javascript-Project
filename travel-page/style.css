@@ -135,63 +135,6 @@ ul {
   opacity: 0.5;
 }
 
-.search {
-  width: 80%;
-  margin: 40px;
-}
-
-.search p {
-  color: #ffffff;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.search-bar {
-  display: flex;
-  height: auto;
-  background: #ffffff;
-  align-items: center;
-  border-radius: 5px;
-  justify-content: space-between;
-  margin-bottom: 40px;
-  padding: 10px;
-}
-
-.country {
-  margin-left: 20px;
-}
-
-#country {
-  font-size: 15px;
-  padding: 5px;
-}
-
-.city {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.city label {
-  color: #000;
-}
-
-.transport label {
-  color: #000;
-}
-
-.transport {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.search .btn {
-  margin-right: 20px;
-  height: 50px;
-  background: #3abee6;
-}
-
 .box {
   width: 95%;
   height: auto;
@@ -205,9 +148,56 @@ ul {
   padding: 20px;
   transition: 1s;
 }
+.box-search {
+  width: 70%;
+  height: auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  color: #242442;
+  padding: 20px;
+  transition: 1s;
+  align-items: flex-start;
+  justify-content: center;
+}
 
-.box.result {
+.box-search form {
+  width: 80%;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.box-header {
+  background-color: #3abee6;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.result.hide {
   display: none;
+}
+
+.box-confimation {
+  width: 70%;
+  height: auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  color: #242442;
+  padding: 20px;
+  transition: 1s;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .box-company {
@@ -234,19 +224,6 @@ ul {
   max-width: 100%;
 }
 
-.tour {
-  width: 95%;
-  height: 200px;
-  background: #ffffff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-bottom: 40px;
-  margin: auto;
-  border-radius: 5px;
-  color: #242442;
-}
-
 .text-md {
   text-align: justify;
 }
@@ -260,4 +237,18 @@ ul {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px 30px;
+}
+.messages {
+  border: 3px solid red;
+  color: red;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+.messages span {
+  color: red;
+}
+
+input {
+  margin-left: 1em;
+  margin-right: 0.5em;
 }

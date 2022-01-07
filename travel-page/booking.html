@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Viet Travel Company</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img src="img/logo.jpg" alt="VietTravel" />
+            </a>
+          </div>
+
+          <ul class="navbar-nav-left">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Our Services</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav-right">
+            <li>
+              <a href="#">
+                <img src="img/marker.svg" alt="" />
+                <span>Find Us</span>
+              </a>
+            </li>
+            <li><button class="btn btn-signin">Sign in</button></li>
+            <li><button class="btn btn-join">Join now</button></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="home">
+        <!-- Company -->
+        <div class="box-company">
+          <div class="box-text">
+            <h1 class="text-xl">Viet Travel Company</h1>
+            <p class="text-md">
+              Viet Travel is a full service travel company. Our reputation for
+              excellent is earned every value and personal attention.
+            </p>
+            <p class="text-md hide">
+              We have striven to make travel simple, worry-free, and fun for our
+              corporate and leisure customers alike. Your complete satisfaction
+              is only the first of our goals – we want your travel experience to
+              be memorable in positive ways, and to expand and enrich your life
+              as nothing else can. We pledge our full resources to the
+              successful completion of every trip we help plan, regardless of
+              its distance or duration.
+            </p>
+            <button id="company-btn" class="btn btn-more">Read More</button>
+          </div>
+        </div>
+        <!-- Confimation Box -->
+        <div class="box-confimation">
+          <h3 class="box-header">Your Booking is Confirmed</h3>
+          <div class="confimation-info">
+            <div>
+              Full Name:
+              <span id="name"></span>
+            </div>
+            <div>
+              City Selection:
+              <span id="city"></span>
+            </div>
+            <div>
+              Transportation Mode:
+              <span id="transportation"></span>
+            </div>
+
+            <div>
+              Total Price:
+              <span id="total-price"></span>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer-container">
+            <p>© 2021 Viet Travel Company. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="result.js"></script>
+  </body>
+</html>
